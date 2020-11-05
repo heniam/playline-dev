@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'MorganPosterAvec-Bold';
+  src: local('MorganPosterAvec-Bold'), url(./font/MorganPosterAvec-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Light';
+  src: local('SFProDisplay-Light'), url(./font/SFProDisplay-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Regular';
+  src: local('SFProDisplay-Regular'), url(./font/SFProDisplay-Regular.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'SFProDisplay-Bold';
+  src: local('SFProDisplay-Bold'), url(./font/SFProDisplay-Bold.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, 'MorganPosterAvec';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

@@ -1,0 +1,71 @@
+.App {
+  /* text-align: center; */
+
+}
+
+.App-logo {
+  display: flex;
+  position: absolute;
+  top:50px;
+  justify-content: center;
+  height: 15vmin;
+  pointer-events: none;
+
+}
+
+
+.App-header {
+  background-color: #012146;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+.App-footer div {
+  padding: 10px 0px; }
+
+  .App-footer {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    left: 20%;
+    right:20%;
+    top: 650px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px; 
+    background-color:#0f2b4c;
+    border-radius: 18px;
+ 
+  }
+    .App-footer div:last-of-type a {
+      border-right: unset; }
+    .App-footer div {
+      padding: 10px 0px; 
+      
+      
+      }
+    .App-footer a {
+      color: #A1A1A1;
+      border-right: 1px solid #A1A1A1;
+      padding: 0px 10px;
+      cursor: pointer; 
+      text-decoration: none;
+      left: 20%;
+      right:20%;
+    }
+
+
+    /* calc(10px + (14 - 10) * ((100vw - 768px) / (1600 - 768)))
+  @media screen and (max-width: 760px) { .App-footer div { font-size: 10px; } }
+  @media screen and (min-width: 1600px) { .App-footer div { font-size: 14px; } } */
