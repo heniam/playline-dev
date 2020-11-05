@@ -73,7 +73,7 @@ render(){
     <div className="card-centered">
         <div className="card-position">
             <Row>
-                <Col md={12} xs={12}>
+                <Col>
                 <Card className="card-style">
                     <Card.Img className="prog-bar"  width= "10px" src={process.env.PUBLIC_URL + '/assets/icons/progress.svg'} alt="Progress Bar"  alt=" "/>
                     <Card.Body>
@@ -119,12 +119,12 @@ render(){
                        
 
                         <div className="bttn">
-                        <Button className="btn-style mr-4 d-flex justify-content-center" variant="outline-secondary">
-                        <Image className=" ml-1 mr-2 "src={process.env.PUBLIC_URL + '/assets/icons/notify-me.svg'} />
+                        <Button className="btn-style mr-4 d-flex" variant="outline-secondary" >
+                        <Image className=" ml-1 mr-2 "src={process.env.PUBLIC_URL + '/assets/icons/notify-me.svg'} width ="24" height="24"/>
                         
                         Notify me </Button>
-                        <Button className="btn-style" variant="outline-secondary">
-                        <Image className="ml-1 mr-2 "src={process.env.PUBLIC_URL + '/assets/icons/money-bag.svg'} />
+                        <Button className="btn-style" variant="outline-secondary" >
+                        <Image className="ml-1 mr-2 "src={process.env.PUBLIC_URL + '/assets/icons/money-bag.svg'}  width ="24" height="24" />
                             deposit</Button>
                         </div>
                         <hr/>

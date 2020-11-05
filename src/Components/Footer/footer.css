@@ -1,5 +1,5 @@
 .App-footer div {
-    padding: 10px 0px; 
+    padding: 20px 0px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,14 +14,13 @@
       align-items: center;
       justify-content: center;
       pointer-events: none;
-
       left: 50%;
       transform: translateX(-50%); 
-
-      top: 680px;
+      
+      top: 718px;
       font-family: 'SFProDisplay-Light';
       text-transform: uppercase;
-      font-size: calc(9px + (13 - 8) * ((100vw - 768px) / (1600 - 768)));
+      font-size: calc(10px + (13 - 10) * ((100vw - 768px) / (1600 - 768)));
       background-color:#001d45;
       border-radius: 18px;
    
