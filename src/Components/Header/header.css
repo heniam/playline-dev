@@ -6,7 +6,7 @@
 .App-logo {
   display: flex;
   position: absolute;
-  top:50px;
+  top:35px;
   justify-content: center;
   height: 15vmin;
   pointer-events: none;

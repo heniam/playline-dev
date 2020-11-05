@@ -7,13 +7,15 @@
 }
   
 
-    
+    .App-footer a:hover{
+      text-decoration: none;
+  }
     .App-footer {
       display: flex;
       position: absolute;
       align-items: center;
       justify-content: center;
-      pointer-events: none;
+      
       left: 50%;
       transform: translateX(-50%); 
       

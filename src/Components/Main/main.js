@@ -73,7 +73,7 @@ render(){
     <div className="card-centered">
         <div className="card-position">
             <Row>
-                <Col>
+                <Col md={12} xs={12}>
                 <Card className="card-style">
                     <Card.Img className="prog-bar"  width= "10px" src={process.env.PUBLIC_URL + '/assets/icons/progress.svg'} alt="Progress Bar"  alt=" "/>
                     <Card.Body>

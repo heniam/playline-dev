@@ -6,24 +6,19 @@
 }
 
 .card-position {
-    top:30vh;
+    top:15vmin;
     display: flex;
     position: absolute;
-    left: 50%;
-    top: 56%;
-    transform: translate(-50%,-50%);
-    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    /* left: 50%;
-    transform: translateX(-50%);  */ 
 }
 
 .card-style{
-    background:#f8f8f8 !important;
-    width: 36rem;
-    
+    background:#f8f8f8 !important;    
     border-radius: 1rem !important;
-    transform: scale(0.76);
+    transform: scale(0.8);
 
 
 }
@@ -58,7 +53,6 @@
 .card-text{
     font-family: 'SFProDisplay-Light';
     color: #737373;
-
     letter-spacing: 0px;
     display: flex;
     align-items: center;
